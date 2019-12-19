@@ -11,7 +11,10 @@ RUN npm install hexo-cli -g \
     npm install hexo-prism-plugin --save \
     npm install Plasma-Paris/hexo-slack-notify --save \
     npm install hexo-deployer-s3 -g \
-    npm install hexo-admin --save
+    npm install hexo-admin --save \
+    npm install hexo-deployer-git --save \
+    npm install hexo-browsersync --save
+
 
 WORKDIR /app
 
