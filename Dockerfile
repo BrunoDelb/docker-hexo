@@ -13,7 +13,8 @@ RUN npm install hexo-cli -g \
     npm install hexo-deployer-s3 -g \
     npm install hexo-admin --save \
     npm install hexo-deployer-git --save \
-    npm install hexo-browsersync --save
+    npm install hexo-browsersync --save \
+    npm install hexo-tag-mmedia --save
 
 
 WORKDIR /app
