@@ -14,6 +14,7 @@ RUN npm install hexo-cli -g \
     npm install hexo-admin --save \
     npm install hexo-deployer-git --save \
     npm install hexo-browsersync --save \
+    npm install -g cross-env \
     npm install hexo-tag-cplayer --save
 
 
