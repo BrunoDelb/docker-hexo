@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:12.16.2-slim
 
 ENV HEXO_PORT=4000
 EXPOSE ${HEXO_SERVER_PORT}
@@ -16,8 +16,5 @@ RUN npm install hexo-cli -g \
     npm install hexo-browsersync --save \
     npm install -g cross-env \
     npm install hexo-tag-cplayer --save
-
-
 WORKDIR /app
-
 CMD hexo server -d -p ${HEXO_PORT}
