@@ -15,8 +15,8 @@ RUN npm install hexo-cli -g \
     npm install hexo-deployer-git --save \
     npm install hexo-browsersync --save \
     npm install -g cross-env \
-    npm install hexo-blog-encrypt --save \
-    npm install https://github.com/ciweigg2/hexo-all-encrypt.git \
+    #npm install hexo-blog-encrypt --save \
+    npm install https://github.com/BrunoDelb/hexo-blog-encrypt.git \
     npm install hexo-tag-cplayer --save
 WORKDIR /app
 CMD hexo server -d -p ${HEXO_PORT}
